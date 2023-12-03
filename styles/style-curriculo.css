@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+:root {
+    --cor-primaria: #0F0F0F;
+    --cor-secundaria: #008170;
+    --cor-terciaria: #005B41;
+
+    --cor-hover: #232D3F;
+
+    --fonte-principal: 'Ubuntu', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    font-family: var(--fonte-principal);
+}
+
+.cabecalho {
+    padding: 2% 0 0 10%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho__menu__link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.12rem;
+    background-color: var(--cor-terciaria);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.cabecalho__menu__link:hover {
+    color: var(--cor-primaria);
+    background-color: var(--cor-hover);
+}
+
+.curriculo {
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.curriculo__caixa-principal {
+    background-color: var(--cor-terciaria);
+    display: flex;
+    justify-content: space-between;
+    max-height: 450px;
+    color: var(--cor-primaria);
+    width: 100%;
+}
+
+.curriculo__caixa-principal__caixa-info {
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.curriculo__caixa-principal__caixa-info__titulos__nome {
+    font-size: 1.87rem;
+    text-transform: uppercase;
+}
+
+.curriculo__caixa-principal__caixa-info__titulos__profissao {
+    font-size: 1.19rem;
+    color: var(--cor-secundaria);
+    padding-top: 5px;
+}
+
+.curriculo__caixa-principal__caixa-info__infos__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.curriculo__caixa-principal__caixa-info__infos__list__info {
+    display: flex;
+    vertical-align: center;
+    gap: 10px;
+}
+
+.curriculo__caixa-principal__caixa-info__social {
+    display: flex;
+    gap: 30px;
+}
+
+.curriculo__caixa-principal__caixa-info__social__rede__icone {
+    width: 42px;
+}
+
+.curriculo__caixa-principal__caixa-imagem{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.curriculo__caixa-principal__caixa-imagem__imagem {
+    width: 100%;
+    max-width: 500px;
+}
+
+.curriculo__sobre {
+    background-color: var(--cor-secundaria);
+    margin-top: 3%;
+    padding: 3%;
+    width: 100%;
+}
+
+.curriculo__sobre__paragrafo {
+    color: var(--cor-primaria);
+    text-align: justify;
+}
+
+.curriculo__sobre__botoes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.curriculo__sobre__botoes__botao {
+    background-color: var(--cor-primaria);
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.curriculo__sobre__botoes__botao:hover {
+    background-color: var(--cor-hover);
+}
+
+@media (max-width: 1217px) {
+
+    .cabecalho {
+        padding: 2% 0 0 10%;
+    }
+    
+    .cabecalho__menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cabecalho__menu__link {
+        font-size: 1.30rem;
+        padding: 10px;
+    }
+
+    .curriculo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .curriculo__caixa-principal {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        max-height: none;
+        padding: 4%;
+    }
+
+    .curriculo__caixa-principal__caixa-info {
+        width: 100%;
+        padding: 4%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .curriculo__caixa-principal__caixa-info__infos__list {
+        padding: 0 20%;
+    }
+
+    .curriculo__caixa-principal__caixa-imagem{
+        width: 100%;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 635px) {
+
+    .curriculo {
+        padding: 5% 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .curriculo__caixa-principal__caixa-info__infos__list {
+        padding: 0 3%;
+    }
+
+    .curriculo__sobre__botoes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .curriculo__caixa-principal__caixa-info__social__rede__icone {
+        width: 35px;
+    }
+
+}
