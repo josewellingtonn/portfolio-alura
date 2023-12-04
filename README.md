@@ -1,49 +1,32 @@
-![Thumbnail GitHub](https://user-images.githubusercontent.com/8989346/123303345-171fc980-d4f4-11eb-84ae-cb0e49bfb126.png)
-
-> Você pode pegar a imagem a partir [deste template](https://docs.google.com/presentation/d/1im_-_spDdNEEsfrmjeZet2ZzVKjG-sQSBWfPFJhZ4q0/edit#slide=id.gb6f422ab58_0_111).
-
-> Ou gerar neste [site](https://alurathumbnail.vercel.app/).
-
-Após adicionar a imagem, também modifique as configurações do projeto para garantir que a imagem vai ser carregada como thumbnail:
-
-**Settings** > **Options** > **Social preview** > **Edit** > **Upload an image...**
-
-<details>
-  <summary><b>Demonstração da adição de thumbnail<b/></summary>
-    
-![adicionando-imagem-preview](https://user-images.githubusercontent.com/8989346/123303159-e0e24a00-d4f3-11eb-9900-92a8b15bc31b.gif)
-    
-</details>
+![Imagem de Capa do Projeto Portfólio Front-End](https://github.com/josewellingtonn/portfolio-alura/assets/152819590/8a8d069a-6adb-4377-8b69-656bd1a90298)
   
-# Nome do projeto
+# Portfólio
 
-Descreva o que é o projeto e o que ele faz
+O projeto Portfólio é uma página que contém a minha apresentação, linkando as minhas redes sociais e o meu currículo profissional. O projeto foi desenvolvido a partir dos cursos de HTML e CSS da Alura na Escola de Front-End. As informações contidas nas páginas são fictícias.
 
 ## 🔨 Funcionalidades do projeto
 
-Indique quais são as funcionalidades e comportamentos do App
+O site contém três páginas:
+* Home - página principal
+* Sobre mim - uma página dedicada a informações mais detalhadas sobre mim
+* Currículo - uma página desenvolvida a partir de um desafio proposto no curso, que contém algumas informações minha sobre currículo
 
-Se possível, apresente um exemplo visual do projeto, seja gif, imagens ou vídeo, abaixo segue um exemplo:
-
-![](https://github.com/alura-cursos/android-com-kotlin-personalizando-ui/raw/master/img/amostra.gif)
+![Tela Principal (Home)](https://github.com/josewellingtonn/portfolio-alura/assets/152819590/03b85e52-931e-441f-b77d-aee3d089943e)
+![Tela Sobre Mim](https://github.com/josewellingtonn/portfolio-alura/assets/152819590/232d06ab-9ee0-4afe-8d59-31049278c2a4)
+![Tela Currículo](https://github.com/josewellingtonn/portfolio-alura/assets/152819590/32e92b0b-9f0a-40a9-8366-375202d430b4)
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
-**Faça uma lista de tecnologias e técnicas utilizadas (a justificativa e descrição são opcionais)**:
-
-- `Funcionalidade 1`: descrição da funcionalidade 1
-- `Funcionalidade 2`: descrição da funcionalidade 2
-  - `Funcionalidade 2a`: descrição da funcionalidade 2a relacionada à funcionalidade 2
-- `Funcionalidade 3`: descrição da funcionalidade 3
+- `HTML`: sigla para "HyperText Markup Language", é uma linguagem de marcação de hipertexto, tecnologia fundamental para marcar todo o conteúdo existente nas páginas, inserindo elementos a partir de tags que são processadas pelo o navegador e logo renderizadas para o usuário.
+- `CSS`: sigla para "Cascading Styles Sheet", folha de estilos em cascata, trata-se de uma linguagem de estilização, tecnologia utilizada para estilizar os elementos do HTML.
+- `Flex-box`: trata-se de uma funcionalidade do CSS que nos trás várias propriedades que ajudam no posicionamento e alinhamento dos elementos.
 
 ## 📁 Acesso ao projeto
 
-**Indique como é possível baixar ou acessar o código fonte do projeto, seja projeto inicial ou final**
+[Veja o projeto final em funcionamento.]()
+
+Neste repositório você tem acesso a todos os arquivos necessários para execução.
 
 ## 🛠️ Abrir e rodar o projeto
 
-**Apresente as instruções necessárias para abrir e executar o projeto**
-
-## 📚 Mais informações do curso
-
-**Faça um CTA (_call to action_) para o curso do projeto**
+Para abrir e rodar o projeto, basta abrir o arquivo `index.html` no navegador.
