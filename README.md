@@ -18,7 +18,7 @@ O site contém três páginas:
 ## ✔️ Técnicas e tecnologias utilizadas
 
 - `HTML`: sigla para "HyperText Markup Language", é uma linguagem de marcação de hipertexto, tecnologia fundamental para marcar todo o conteúdo existente nas páginas, inserindo elementos a partir de tags que são processadas pelo o navegador e logo renderizadas para o usuário.
-- `CSS`: sigla para "Cascading Styles Sheet", folha de estilos em cascata, trata-se de uma linguagem de estilização, tecnologia utilizada para estilizar os elementos do HTML.
+- `CSS`: sigla para "Cascading Style Sheets", folha de estilos em cascata, trata-se de uma linguagem de estilização, tecnologia utilizada para estilizar os elementos do HTML.
 - `Flex-box`: trata-se de uma funcionalidade do CSS que nos trás várias propriedades que ajudam no posicionamento e alinhamento dos elementos.
 
 ## 📁 Acesso ao projeto
